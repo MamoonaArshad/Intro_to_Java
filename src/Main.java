@@ -3,12 +3,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Pick a number between 1 and 10");
         Scanner scanner = new Scanner(System.in);
+        String favouriteFood = "pizza";
         int inputtedNum = scanner.nextInt();
         if (inputtedNum < 5) {
-            System.out.println("Enjoy the good luck a good friend brings you");
+             favouriteFood = "Chicken";
+            System.out.println("then your favourite food is " + favouriteFood);
         }
         else {
-            System.out.println("Your shoe selection will make you very happy");
+            favouriteFood = "Ketchup chips";
+            System.out.println("then your favourite food is " + favouriteFood));
         }
 
 
