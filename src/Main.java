@@ -15,7 +15,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
         studentGPA = input.nextDouble();
-        System.out.println("your GPA has been updated to " + studentGPA);
+        System.out.println("your GPA has been updated to " + studentGPA);  //the update of course is not stored internally
 
     }
 }
