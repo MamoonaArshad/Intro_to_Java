@@ -1,21 +1,16 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int studentAge = 15;
-        double studentGPA = 3.45;
-        //char studentFirstInitial = 'k';
-        char studentLatInitial = 'H';
-        boolean hasPerfectAttendance = true;
-        String studentFirstName = "Kayla ";
-        String studentLastName = "Hammon";
-        char studentFirstInitial = studentFirstName.charAt(0);
+        System.out.println("Pick a number between 1 and 10");
+        Scanner scanner = new Scanner(System.in);
+        int inputtedNum = scanner.nextInt();
+        if (inputtedNum < 5) {
+            System.out.println("Enjoy the good luck a good friend brings you");
+        }
+        else {
+            System.out.println("Your shoe selection will make you very happy");
+        }
 
-        System.out.println(studentFirstName + "" + studentLastName +  " has a GPA of " + studentGPA);
-        System.out.println("What do you want to update ut to?");
-
-        Scanner input = new Scanner(System.in);
-        studentGPA = input.nextDouble();
-        System.out.println("your GPA has been updated to " + studentGPA);
 
     }
 }
