@@ -1,28 +1,26 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
-        String question = "When is Wife's Birthday?";
-        String answer1 = "1: 3 September";
-        String answer2 = "2: 4 September";
-        String answer3 = "3: 9 September";
-        System.out.println(question);
-        System.out.println(answer1);
-        System.out.println(answer2);
-        System.out.println(answer3);
-        Scanner answer = new Scanner (System.in);
-        System.out.println("Write here the answer: " );
-        String userInput = answer.next();
-        if(userInput.equals("1")){
-            System.out.println("Bravo!");
-        }
-        else{
-            System.out.println("Cafone!");
+    public static void teaWithMe() {
+        String teaCollection = "Chamomille, Mango, Black, Aloe";
+        System.out.println("Would you like some tea with me?");
+        System.out.println("Type in yes or yes");
+        Scanner userAnswer = new Scanner(System.in);
+        userAnswer.next();
+        System.out.println("Welcome to my tea collection  " + teaCollection );
+        System.out.println("What would you like");
+        Scanner userTeaChoice = new Scanner(System.in);
+        userTeaChoice.next();
+        System.out.println("Coming right away!");
 
-        }
-            }
+        //so far I have only defined the function and if I run the script it runs nothing
 
-        };
+    }
+
+    public static void main(String[] args){
+
+    }
+};
 
 
 
