@@ -5,13 +5,13 @@ public class Main {
         boolean isOnRepeat = true;
 
         while (isOnRepeat) {
-            System.out.println("Hunger level rising");
-            System.out.println("Would you like pizza?");
+            System.out.println("Current song playing");
+            System.out.println("Would you like to play next song");
             // not needed as variable defined in scope scanner Scanner = new Scanner(System.in);
             String userInput = scanner.next();
             if (userInput.equals("Yes")) {
                 isOnRepeat = false;
-                System.out.println("Coming now");
+                System.out.println("Next song is playing");
             }
             }
         }
