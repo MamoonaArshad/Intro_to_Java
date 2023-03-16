@@ -8,7 +8,7 @@ public class Main {
         Scanner userAnswer = new Scanner(System.in);
         userAnswer.next();
         System.out.println("Welcome to my tea collection  " + teaCollection );
-        System.out.println("What would you like");
+        System.out.println("What would you like?");
         Scanner userTeaChoice = new Scanner(System.in);
         userTeaChoice.next();
         System.out.println("Coming right away!");
@@ -17,7 +17,8 @@ public class Main {
 
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args){   //the functions can only be executed in the main function
+        teaWithMe();
 
     }
 };
