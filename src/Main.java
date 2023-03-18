@@ -6,6 +6,10 @@ public class Main {
         double TriangleAArea = triangleA.findArea();
         System.out.println(TriangleAArea);
 
+        System.out.println(triangleA.sideLenThree);
+        //we are accessing a parameter
+        System.out.println(Triangle.numOfSides); //we are accessing a static variable
+
 
 
     }
