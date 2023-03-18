@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024e744c-8537-41e3-be5c-e6e3f1c57ed7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -13,8 +14,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b90e93b9-33f1-47d7-8de2-ab9cbb7c58de" />
+        <option name="url" value="https://github.com/MamoonaArshad/Intro_to_Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +85,7 @@
       <workItem from="1678916990761" duration="1565000" />
       <workItem from="1678976285265" duration="7612000" />
       <workItem from="1679084084388" duration="195000" />
-      <workItem from="1679147966092" duration="4986000" />
+      <workItem from="1679147966092" duration="7475000" />
     </task>
     <servers />
   </component>
