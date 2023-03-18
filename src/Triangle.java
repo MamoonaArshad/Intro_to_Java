@@ -27,4 +27,10 @@ public class Triangle {
         //now all the attributes have been assigned a value and they are accessible
     }
 
+    //now let's create a function that uses the attributes
+
+    public double findArea() {
+        return (this.base * this.height)/2;
+    }
+
 }
