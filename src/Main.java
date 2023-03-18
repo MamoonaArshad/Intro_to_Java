@@ -1,18 +1,22 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Main {
-    public static void fullMeal(double priceOfTheMeal, double taxPercentage, double tipPercentage) {
+    public static double fullMeal(double priceOfTheMeal, double taxPercentage, double tipPercentage) {
         //here we declare the variables we are going to be using.
         //The variable must always be declared in the round paranthesis as a list
 
         double tipPrice = tipPercentage * priceOfTheMeal;
         double taxPrice = taxPercentage * priceOfTheMeal;
         double totalPrice = priceOfTheMeal  + tipPrice + taxPrice;
-        System.out.println((totalPrice));
+        return totalPrice; //this will allow us to access the variable of the function for a different scope, it thus become kind of as an independent variable
     }
 
     public static void main(String[] args){
-        fullMeal(22, 0.8, 0.9); //add directly the number in order
+       double groupTotalMealPrice = fullMeal(36, .20, .8);
+       //add directly the number in order
+        int numberOfPeople = 6;
+        double individualMealPrice = groupTotalMealPrice/numberOfPeople;
+        System.out.println(individualMealPrice);
 
 
 
@@ -30,8 +34,4 @@ public class Main {
 
 
 
-//Implement a multiple choice question:
-//One question, three answer choices where one is correct
-//Ask the user a question and provide the question choices to user
-//the user will respond and we will collect their answer
-//print out the appropriate message to the user
+
