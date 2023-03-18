@@ -1,24 +1,20 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Main {
-    public static void teaWithMe() {
-        String teaCollection = "Chamomille, Mango, Black, Aloe";
-        System.out.println("Would you like some tea with me?");
-        System.out.println("Type in yes or yes");
-        Scanner userAnswer = new Scanner(System.in);
-        userAnswer.next();
-        System.out.println("Welcome to my tea collection  " + teaCollection );
-        System.out.println("What would you like?");
-        Scanner userTeaChoice = new Scanner(System.in);
-        userTeaChoice.next();
-        System.out.println("Coming right away!");
+    public static void fullMeal(double priceOfTheMeal, double taxPercentage, double tipPercentage) {
+        //here we declare the variables we are going to be using.
+        //The variable must always be declared in the round paranthesis as a list
 
-        //so far I have only defined the function and if I run the script it runs nothing
-
+        double tipPrice = tipPercentage * priceOfTheMeal;
+        double taxPrice = taxPercentage * priceOfTheMeal;
+        double totalPrice = priceOfTheMeal  + tipPrice + taxPrice;
+        System.out.println((totalPrice));
     }
 
-    public static void main(String[] args){   //the functions can only be executed in the main function
-        teaWithMe();
+    public static void main(String[] args){
+        fullMeal(22, 0.8, 0.9); //add directly the number in order
+
+
 
     }
 };
